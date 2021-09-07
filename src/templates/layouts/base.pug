@@ -1,0 +1,19 @@
+doctype html
+html(lang='ua')
+    head
+        title: block title
+            | ⋅ Index page
+        block meta
+            include ../partials/meta
+        block fonts
+            include ../partials/fonts
+        block styles
+            link(href='css/main.css' rel='stylesheet')
+    body
+        header: block header
+            include ../partials/header.pug
+        block content
+        footer: block footer
+            include ../partials/footer
+        block scripts
+            script(src='js/main.js')

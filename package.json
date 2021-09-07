@@ -1,0 +1,38 @@
+{
+  "name": "web-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vladyslav Zahrevskiy",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build",
+    "extract": "gulp extract"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-uglify": "^3.0.2",
+    "lighthouse": "^8.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-htmlacademy": "^0.1.10",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-scss": "^3.20.1"
+  },
+  "dependencies": {}
+}
