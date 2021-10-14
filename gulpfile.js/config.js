@@ -17,6 +17,11 @@ module.exports = {
             dest: p('build/js/'),
             watch: p('src/scripts/*.js', glob=true)
         },
+        images: {
+            src: p('src/images/**/*.{gif,png,jpg,svg,webp}'),
+            dest: p('build/img'),
+            watch: p('src/images/**/*.{gif,png,jpg,svg,webp}', glob=true)
+        },
         serve: p('./build'),
     }
 }

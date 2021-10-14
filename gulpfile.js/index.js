@@ -4,9 +4,10 @@ const
     styles = require('./styles'),
     scripts = require('./scripts'),
     pages = require('./pages'),
+    images = require('./images'),
     clean_served = require('./clean_served')
 
-const dev = gulp.parallel(pages, styles, scripts)
+const dev = gulp.parallel(pages, styles, scripts, images)
 
 const build = gulp.series(clean_served, dev)
 

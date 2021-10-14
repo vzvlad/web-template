@@ -26,6 +26,7 @@
     "gulp-pug": "^5.0.0",
     "gulp-rigger": "^0.5.8",
     "gulp-sourcemaps": "^3.0.0",
+    "gulp-squoosh": "^0.8.0",
     "gulp-stylelint": "^13.0.0",
     "gulp-uglify": "^3.0.2",
     "lighthouse": "^8.3.0",
