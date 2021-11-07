@@ -3,9 +3,9 @@ const path = require('path')
 module.exports = {
     path: {
         pages: {
-            src: p('src/templates/pages/*.pug', glob=true),
+            src: p('src/pages/*.pug'),
             dest: p('build/'),
-            watch: [p('src/templates/**/*.pug', glob=true)],
+            watch: [p('src/pages/**/*.pug', glob=true)],
         },
         styles: {
             src: p('src/styles/main.scss'),

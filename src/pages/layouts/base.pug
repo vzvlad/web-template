@@ -2,18 +2,15 @@ doctype html
 html(lang='uk')
     head
         title: block title
-            | ⋅ Index page
+            | ⋅ Головна
         block meta
-            include ../partials/meta
+            meta(charset='UTF-8')
+            meta(name='viewport' content='width=device-width, initial-scale=1.0')
         block fonts
-            include ../partials/fonts
+            link(rel='preconnect' href='https://fonts.gstatic.com')
         block styles
             link(href='css/main.css' rel='stylesheet')
     body
-        header: block header
-            include ../partials/header.pug
         block content
         footer: block footer
-            include ../partials/footer
         block scripts
-            script(src='js/main.js')
