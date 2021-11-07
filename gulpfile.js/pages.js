@@ -4,7 +4,7 @@ const
     pug = require('gulp-pug'),
     config = require('./config.js')
 
-module.exports = function html() {
+module.exports = function pages() {
     return gulp.src(config.path.pages.src)
         .pipe(pug())
         .pipe(htmlmin({

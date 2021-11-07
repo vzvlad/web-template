@@ -6,7 +6,7 @@ const gulp = require('gulp'),
     babel = require('gulp-babel'),
     config = require('./config.js')
 
-module.exports = function script() {
+module.exports = function scripts() {
     return gulp.src(config.path.scripts.src)
         .pipe(plumber())
         .pipe(rigger())
